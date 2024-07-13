@@ -1,0 +1,10 @@
+var $mcj = jQuery.noConflict(true);
+
+      // Redirect to Google after form submission
+      document.getElementById("mc-embedded-subscribe-form").addEventListener("submit", function() {
+         setTimeout(function() {
+            window.location.href = "https://www.google.com";
+         }, 1000); // Adjust the delay as needed
+      });
+   </script>
+</div>
